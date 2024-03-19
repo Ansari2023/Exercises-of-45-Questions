@@ -5,4 +5,4 @@ console.log("lowercase:", personName.toLowerCase());
 //UpperCase
 console.log("Uppercase:", personName.toUpperCase());
 //TitleCase
-console.log("titlecase", personName.replace(/\bw/g, function (c) { return c.toUpperCase(); }));
+console.log("titlecase:", personName.replace(/\bw/g, function (c) { return c.toUpperCase(); }));
